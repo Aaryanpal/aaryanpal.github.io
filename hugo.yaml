@@ -1,6 +1,6 @@
 baseURL: https://aryanpal.live/
 languageCode: en-us
-title: Aryan Pal
+title: aryanpal.live
 theme: ["PaperMod"]
 
 languages:
@@ -11,17 +11,6 @@ languages:
       category: categories
       tag: tags
       series: series
-    menu:
-      main:
-        - name: Archive
-          url: archives
-          weight: 5
-        - name: Search
-          url: search/
-          weight: 10
-        - name: Tags
-          url: tags/
-          weight: 10
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   author: "Me"
@@ -39,6 +28,11 @@ params:
   ShowAllPagesInArchive: true
   ShowPageNums: true
   ShowToc: true
+  assets:
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
   # comments: false
   images: ["images/papermod-cover.png"]
 
@@ -58,9 +52,11 @@ params:
   homeInfoParams:
     Title: "Aryan Pal"
     Content: >
-      👋 Welcome to Place
+      - Hi there! My name is Aryan Pal. I’m from Etawah(U.P), India.
+      
+      - This website is personal blog which I use to document my learning journey and share my work with the world. Archive page holds a list of all posts or can use Search / Tags to find pages about specific keywords.
 
-      -- Projects and My Blogs will be updated soon.--
+
 
   socialIcons:
     - name: github
