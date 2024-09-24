@@ -25,7 +25,7 @@ languages:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   author: "Me"
-
+  enablegitinfo: true
   defaultTheme: auto
   # disableThemeToggle: true
   ShowShareButtons: true
@@ -58,7 +58,9 @@ params:
   homeInfoParams:
     Title: "Aryan Pal"
     Content: >
-      👋 Welcome to Place 
+      👋 Welcome to Place
+
+      -- Projects and My Blogs will be updated soon.--
 
   socialIcons:
     - name: github
