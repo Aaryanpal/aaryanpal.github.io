@@ -1,4 +1,4 @@
-baseURL: https://aaryanpal.github.io/
+baseURL: https://aryanpal.live/
 languageCode: en-us
 title: Aryan Pal
 theme: ["PaperMod"]
@@ -22,8 +22,6 @@ languages:
         - name: Tags
           url: tags/
           weight: 10
-        - name: WiKi
-          url: https://github.com/adityatelange/hugo-PaperMod/wiki/
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   author: "Me"
@@ -68,4 +66,4 @@ params:
       url: "https://github.com/aaryanpal"
     - name: LinkedIN
       title: For More Work
-      url: "www.linkedin.com/in/aaryanpal"
+      url: "https://www.linkedin.com/in/aaryanpal"
